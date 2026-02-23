@@ -42,9 +42,10 @@ app.listen(port, () => {
 
 mongoose
   .connect(
-    "mongodb+srv://Salman:salman.123@cluster0.j4bcbgb.mongodb.net/?appName=Cluster0",
+    "mongodb+srv://######.######.###@cluster0.j4bcbgb.mongodb.net/?appName=Cluster0",
   )
   .then(() => {
     console.log("Connected to Mongodb");
   })
   .catch((err) => console.error("Could not Connent to Mongodb", err));
+
